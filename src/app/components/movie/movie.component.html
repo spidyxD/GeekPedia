@@ -1,0 +1,14 @@
+<div class="movie ">
+    <div class="card-columns">
+        <div (click)='getReview(item.title,item.id,"movie")' class="card" *ngFor="let item of items">
+            <img [src]='item.poster_path | domseguro' class="card-img-top" alt="image not avaible">
+            <div class="card-body">
+                <h5 class="card-title">{{item.title}}
+                    <small class="text-muted">  Rate: <span class="badge badge-info">{{item.vote_average}}</span></small></h5>
+            </div>
+            <div class="card-footer">
+                <small class="text-muted">Date released: {{item.release_date}}</small>
+            </div>
+        </div>
+    </div>
+</div>

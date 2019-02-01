@@ -1,0 +1,24 @@
+<div class="float-right">
+    <button type="button" [routerLink]="[recent]" class="btn btn-danger">Back</button>
+</div>
+
+<h1>Top best movies 2018 </h1>
+<hr>
+<app-movie [items]="topMovies"></app-movie>
+<br>
+<h1>Latest Movies</h1>
+<hr>
+<app-serie [items]="latestMovies"></app-serie>
+<br>
+<br>
+<h1>Best R Movies</h1>
+<hr>
+<app-serie [items]="rMovies"></app-serie>
+<br>
+<h1>Best Kid Movies</h1>
+<hr>
+<app-serie [items]="kidMovies"></app-serie>
+<br>
+<h1>Best drama movies</h1>
+<hr>
+<app-serie [items]="dramaMovies"></app-serie>
