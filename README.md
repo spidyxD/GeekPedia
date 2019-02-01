@@ -1,9 +1,9 @@
 <div>
-<img src="presentation1">
-  <img src="presentation2">
-    <img src="presentation3">
-      <img src="presentation4">
-        <img src="presentation5">
+<img src="presentation1.jpg">
+  <img src="presentation2.jpg">
+    <img src="presentation3.jpg">
+      <img src="presentation4.jpg">
+        <img src="presentation5.jpg">
 </div>          
 <p>  
 # GeekPedia
